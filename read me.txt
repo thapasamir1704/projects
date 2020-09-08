@@ -1,0 +1,38 @@
+Please read this  before executing the projects.ALLthese projects have been made and tested only with powershell , so I advise you 
+run with powershell.
+
+NOTE: if this syntax doesn't work, try python3 instead of python . And make sure you install modules given in the code if you don't have them.
+
+email_sender:
+DESCRIPTION:It  can be used to send email through code.
+SYNTAX: python email_sender.py
+
+image_converter:
+DESCRIPTION: It converts all images of a folder into .png format and places them into new directory
+SYNTAX :python imageconverter.py SOURCEFOLDER DESTINATIONFOLDER       (HERE,MAKE SURE SOURCEFOLDER IS IN SAME DIRECTORY AS THE CODE. )
+
+passwordchecker:
+DESCRIPTION: It shows how many times a particular password has been cracked. It can also accept multiple parameters at once.
+SYNTAX: python passwordchecker.py PASSWORD
+OR          
+        python passwordcheker.py PASSWORD1 PASSWORD2   (and so on)
+
+pdfmerger:
+DESCRIPTION:It can merge multiple pdfs into a single pdf.
+SYNTAX: python pdfmerger.py PDF1 PDF2 PDF3 (and so on)
+
+watermarker:
+DESCRIPTION: It watermarks each and every page of your pdf.(MAKE SURE YOU DOWNLOAD WATERMARK.PDF AND PLACE IT IN SAME DIRECTORY AS THE OTHERE PDF)
+SYNTAX : python watermarker.py PDFNAME
+
+web_scraper:
+DESCRIPTION :It scrapes  a number of  pages of a particular website hackernews for news greater than 100 points.(Number specified by user)
+syntax :python web_scraper.py
+
+twitter_bot :
+DESCRIPTION : It likes a number of tweets with a certain search string specified by the user.It can also retweet on the basis of user's choice ..
+NOTE :I haven't checked this program as  I had no twitter account. In case of errors ,please mail me.
+SYNTAX : python twitter_bot.py
+
+
+                                               
